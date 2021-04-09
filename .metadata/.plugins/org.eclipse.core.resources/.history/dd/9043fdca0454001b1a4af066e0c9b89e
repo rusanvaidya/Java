@@ -1,0 +1,15 @@
+public class college_info
+{
+	public String college;
+	public String address;
+}
+
+public class student_info
+{
+	public String name;
+	public int roll;
+}
+
+public class student {
+
+}

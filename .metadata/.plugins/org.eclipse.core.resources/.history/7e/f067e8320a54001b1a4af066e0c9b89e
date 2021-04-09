@@ -1,0 +1,9 @@
+package com.test;
+import com.test.one.*;
+
+
+class pkg
+{
+	a1 a = new a1();
+	a.display();
+}

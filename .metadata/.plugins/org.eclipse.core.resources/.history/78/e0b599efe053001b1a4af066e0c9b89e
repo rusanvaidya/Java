@@ -1,0 +1,10 @@
+public class def_list 
+{
+	public static void main(String args[])
+	{
+		int arr[];
+		arr = new int[12];
+		arr[0] = 1;
+		arr[2] = 12;
+	}
+}

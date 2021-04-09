@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/home/ru7an/Project/JAVA/.metadata/.plugins/org.eclipse.jdt.core
+3059742755.index
+3164611652.index
+3649925401.index
+2175968996.index
+3865976396.index

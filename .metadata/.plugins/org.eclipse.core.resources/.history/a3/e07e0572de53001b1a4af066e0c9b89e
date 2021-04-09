@@ -1,0 +1,8 @@
+package com.test.one;
+
+public class one 
+{
+	public int a;
+	public int b;
+	public int sum;
+}

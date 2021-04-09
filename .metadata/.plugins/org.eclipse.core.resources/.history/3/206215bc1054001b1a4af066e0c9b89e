@@ -1,0 +1,13 @@
+import com.stud_info.*;
+
+public class student 
+{
+	public static void main(String args[])
+	{
+		student_info s = new student_info();
+		s.setName("Hari");
+		s.setRoll(12);
+		s.setAddress("Balkumari");
+		s.s
+	}
+}

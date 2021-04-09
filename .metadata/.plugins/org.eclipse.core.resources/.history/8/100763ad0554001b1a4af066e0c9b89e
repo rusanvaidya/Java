@@ -1,0 +1,13 @@
+package com.test.one;
+
+public class a1 
+{
+	String name;
+	String faculty;
+	int roll;
+	
+	void display()
+	{
+		System.out.println(name + faculty + roll);
+	}
+}

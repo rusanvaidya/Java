@@ -1,0 +1,9 @@
+import com.stud_info.*;
+
+public class student 
+{
+	student()
+	{
+		student_info.name = "Hari";
+	}
+}

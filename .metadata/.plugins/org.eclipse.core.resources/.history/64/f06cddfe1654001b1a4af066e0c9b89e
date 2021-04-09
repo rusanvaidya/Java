@@ -1,0 +1,43 @@
+package com.stud_info;
+class college_info
+{
+	private String college;
+	private String address;
+	
+	public String getCollege() {
+		return college;
+	}
+	public void setCollege(String college) {
+		this.college = college;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+}
+
+public class student_info extends college_info
+{
+	student_info()
+	{
+		System.out.println("STUDENT INFORMATION");
+	}
+	
+	private String name;
+	private int roll;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getRoll() {
+		return roll;
+	}
+	public void setRoll(int roll) {
+		this.roll = roll;
+	}
+}

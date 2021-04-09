@@ -1,0 +1,10 @@
+import com.stud_info.*;
+
+public class student 
+{
+	public static void main(String args[])
+	{
+		student_info s = new student_info();
+		s.setName("Hari");
+	}
+}

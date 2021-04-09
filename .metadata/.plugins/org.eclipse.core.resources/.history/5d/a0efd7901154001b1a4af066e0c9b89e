@@ -1,0 +1,20 @@
+import com.stud_info.*;
+import java.util.*;
+
+public class student 
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		String n = sc.next();
+		int r = sc.nextInt();
+		String a = sc.next();
+		String c = sc.next();
+		
+		student_info s = new student_info();
+		s.setName(n);
+		s.setRoll(r);
+		s.setAddress(a);
+		s.setCollege(c);
+	}
+}

@@ -1,0 +1,48 @@
+import java.util.*;
+
+class college_info
+{
+	private String college;
+	private String address;
+	
+	public String getCollege() {
+		return college;
+	}
+	public void setCollege(String college) {
+		this.college = college;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+}
+
+class student_info
+{
+	private String name;
+	private int roll;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getRoll() {
+		return roll;
+	}
+	public void setRoll(int roll) {
+		this.roll = roll;
+	}
+}
+
+public class student 
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		String name = sc.next();
+	}
+}

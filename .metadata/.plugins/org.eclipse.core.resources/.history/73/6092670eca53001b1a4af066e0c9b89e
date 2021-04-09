@@ -1,0 +1,34 @@
+public class A 
+{
+
+	public float sum;
+	A()
+	{
+		int a = 1;
+		int b = 2;
+		
+		sum = a+b;
+	}
+	
+	A(float a, float b)
+	{
+		sum = a+b;
+	}
+	
+	A(int a, int b)
+	{
+		sum = a+b;
+	}
+	
+	
+	public void display()
+	{
+		System.out.print(sum);
+	}
+	
+	public static void main(String args[])
+	{
+		A x = new A(1,2);
+		x.display();
+	}
+}

@@ -1,0 +1,35 @@
+public class A 
+{
+
+	public double sum;
+	A()
+	{
+		int a = 1;
+		int b = 2;
+		
+		sum = a+b;
+	}
+	
+	A(double a, double b)
+	{
+		sum = a+b;
+	}
+	
+	A(int a, int b)
+	{
+		sum = a+b;
+	}
+	
+	
+	public void display()
+	{
+		System.out.print(sum);
+	}
+	
+	public static void main(String args[])
+	{
+		A y = new A();
+		A x = new A(1.10,2.20);
+		y.display();
+	}
+}

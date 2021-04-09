@@ -1,0 +1,23 @@
+class test
+{
+	public int a ,b;
+	void calc(int a, int b)
+	{
+		this.a = a;
+		this.b = b;
+	}
+	
+	void show() 
+	{
+		System.out.println(a+b);
+	}
+}
+public class inh 
+{
+	public static void main(String args[]) 
+	{
+		test t = new test();
+		t.calc(1,10);
+		t.show();		
+	}
+}
